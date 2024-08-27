@@ -19,7 +19,6 @@ public class AlbumController {
 
     @GetMapping
     public List<Album> getAllAlbums() {
-        System.out.println("I'm here" + albumService.getAllAlbums());
         return albumService.getAllAlbums();
     }
 
